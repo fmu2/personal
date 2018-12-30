@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>
+			Fangzhou Mu's homepage
+		</title>
+
+		<style>
+			body {
+				background-color: #5E5E5E;
+			}
+			.main {
+				width: 1000px;
+				margin: auto;
+				border-radius: 10px;
+				background-color: #EEEEEE;
+				padding: 25px 50px 25px 50px;
+				box-shadow: 0px 0px 10px #999999;
+                font-family: sans-serif;
+                line-height: 150%;
+			}
+			.intro {
+				display: block;
+				line-height: 150%;
+			}
+			a {
+				color: #0050e7;
+				text-decoration: none;
+			}
+			#photo {
+                margin-right: 50px;
+				float: left;
+				height: 250px;
+			}
+            div.intro {
+                margin-top: 50px;
+            }
+			div.projects {
+				margin-top: 50px;
+			}
+            div.news {
+                margin-top: 50px;
+            }
+            div.work {
+                margin-top: 50px;
+            }
+			.project-thumb {
+				width: 275px;
+			}
+			.projects-table {
+				margin-top: 25px;
+			}
+			.description-column {
+				padding-left: 50px;
+				width: 1000px;
+			}
+			.project-title {
+				font-size: 16px;
+				font-weight: bold;
+			}
+			.description {
+				text-align: justify;
+				text-justify: inter-word;
+				padding-bottom: 10px;
+				font-size: 14px;
+			}
+			.thumb-column {
+				padding: 15px 0px 15px 0px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+            <div>
+                <h1 align="right"><span class="name">Fangzhou Mu (穆方舟)</span></h1>
+                <p align="right">Department of Computer Sciences<br>
+                    University of Wisconsin-Madison<br>
+                    <b>E-mail:</b> fmu2@wisc.edu <br>
+                    <a target="_blank" href="cv.pdf">CV</a> | <a target="_blank" href="https://github.com/fmu2">GitHub</a> | <a target="_blank" href="https://www.linkedin.com/in/fz-mu/">LinkedIn</a>
+                </p>
+            </div>
+			<div class="intro">
+				<img id="photo" src="photo.jpg">
+                <p>I am a 2nd-year <a target="_blank" href="http://www.cs.wisc.edu/">Computer Sciences</a> graduate student at the University of Wisconsin-Madison, working with <a target="_blank" href="https://www.biostat.wisc.edu/~yli/">Prof. Yin Li</a>. 
+                My research interest lies in <b>computer vision</b> and <b>deep learning</b>. My current focus is on visual representation learning with deep generative models. I am also interested in deep learning for geometric vision. Previously, I worked with <a target="_blank" href="https://www.biostat.wisc.edu/~gitter/">Prof. Anthony Gitter</a> on an educational project for teaching biologists machine learning.</p>
+                <p>I was a molecular biologist and has a peripheral interest in bioinformatics. I received my MS in <a target="_blank" href="https://pharmacy.wisc.edu/programs/pharmsci/">Pharmaceutical Sciences</a> from UW-Madison in 2018, under the supervision of <a target="_blank" href="https://apps.pharmacy.wisc.edu/sopdir/michael_taylor/">Prof. Michael Taylor</a>. My research was on understanding the development of blood-brain barrier in zebrafish. Before that, I completed my BS in <a target="_blank" href="http://www.cls.en.zju.edu.cn/">Biological Sciences</a> at Zhejiang University in 2014. My undergraduate research was on marine natural product chemistry and cancer cell biology.</p>
+			</div>
+            
+            <div class="news">
+                <h3>News</h3>
+                <ul>
+                    <li><b>2018.12:</b> Led the second offering of ML4BIO workshop</li>
+                    <li><b>2018.10:</b> Passed AI Qual</li>
+                    <li><b>2018.08:</b> Led the first offering of ML4BIO workshop</li>
+                </ul>  
+            </div>
+
+            <div class="work">
+                <h3>Projects</h3>
+                <table>
+                    <tr>
+                        <td>
+                            <p style="font-size: 16px"><b>ML4BIO: Machine Learning for Biologists</b></p>
+                            <div class="description">
+                            ML4Bio is a Python package with graphical interface for introducing machine-learning concepts to biologists in a workshop format. It focuses on classification and guides users through training, evaluation and inference phases. The workshop includes example datasets drawn from various biological domains and tutorials on the machine-learning workflow and selected classifiers.<br>
+                        </div> 
+                        <div>
+                            <a target="_blank" href="https://github.com/gitter-lab/ml4bio">GitHub (software)</a> | <a target="_blank" href="https://github.com/gitter-lab/ml-bio-workshop">GitHub (workshop)</a> | <a target="_blank" href="https://pypi.org/project/ml4bio/">PyPI</a>
+                        </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        
+			<div class="projects">
+				<h3>Publication</h3>
+				<div class="projects-table">
+				<table>
+                <!-- MT-EQA -->
+                <tr>
+                    <td id="mt-eqa" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="pharm2.png"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>Modeling Analysis of Potential Target of Dolastatin 16 by Computational Virtual Screening</b>
+                        </div>
+                        <i>Chemical and Pharmaceutical Bulletin</i><br>
+                        <div class="description">
+                            Tingting Liang, Qi Zhao, Shan He, <b>Fangzhou Mu</b>, Wei Deng, Bingnan Han<br>
+                        </div>      
+                        <div>
+                            <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/29863061">Paper</a>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </tr>
+                <tr>
+                    <td id="mt-eqa" class="thumb-column">
+                        <a href="#"><img class="project-thumb" src="pharm1.jpg"></a>
+                    </td>
+                    <td class="description-column">
+                    <div>
+                        <div class="project-title">
+                            <b>CNS angiogenesis and barriergenesis occur simultaneously</b>
+                        </div>
+                        <i>Developmental Biology</i><br>
+                        <div class="description">
+                            Robyn Umans, Hannah Henson, <b>Fangzhou Mu</b>, Chaithanyarani Parupalli, Bensheng Ju, Jennifer Peters, Kevin Lanham, Jessica Plavicki, Michael Taylor<br>
+                        </div>      
+                        <div>
+                            <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/28365243">Paper</a>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </tr>
+				</table>
+				</div>
+			</div>
+
+            <div class="work">
+                <h3>Teaching & Coursework</h3>
+                <table>
+                    <tr>
+                        <td>
+                            <p style="font-size: 16px"><b>Graduate Teaching Assistant</b></p>
+                            <div class="description">
+                                <ul>
+                                    <li>BMI/CS 776 Advanced Bioinformatics <b>(Spring 2018, <a target="_blank" href="https://biostat.wisc.edu/bmi776/">2019</a>)</b></li>
+                                    <li>BMI/CS 576 Introduction to Bioinformatics <b>(Fall 2018)</b></li>
+                                    <li>PHMSCI 540 Drug Delivery Systems <b>(Fall 2017)</b></li>
+                                    <li>PHMSCI 522 Pharmacology II <b>(Spring 2014, 2018)</b></li>
+                                </ul>
+                            </div> 
+                            <p style="font-size: 16px"><b>Graduate Courses in CS</b></p>
+                            <div class="description">
+                                <ul>
+                                    <li>CS 726 Nonlinear Optimization I <i>(Michael Ferris)</i></li>
+                                    <li>CS 730 Nonlinear Optimization II <i>(Steve Wright)</i></li>
+                                    <li>CS 760 Machine Learning <i>(Mark Craven)</i></li>
+                                    <li>CS 761 Advanced Machine Learning <i>(Jerry Zhu)</i></li>
+                                    <li>CS 766 Computer Vision <i>(Mohit Gupta)</i></li>
+                                    <li>BMI/CS 776 Advanced Bioinformatics <i>(Anthony Gitter)</i></li>
+                                    <li>CS 838 Data Science: Principles, Algorithms and Applications <i>(AnHai Doan)</i></li>
+                                    <li>BMI 826/CS 838 Learning Based Methods in Computer Vision <i>(Yin Li)</i></li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+		</div>
+        
+	</body>
+</html>
